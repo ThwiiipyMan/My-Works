@@ -1,0 +1,24 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+/* Both headers uses grouping */
+
+.box > p {
+    color: firebrick;
+}
+/* Calling the paragraph inside box class is parent-child selector */
+
+.box li {
+    color: blue;
+}
+/*Coloring the list items inside box class is ancestor-descendant selector */
+
+li.done {
+    color: seagreen;
+}
+/* Coloring my finished tasks is an example of chaining selectors */
+
+ul p.done{
+    font-size: 0.5rem;
+}
