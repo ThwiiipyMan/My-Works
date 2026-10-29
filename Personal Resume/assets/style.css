@@ -1,0 +1,14 @@
+#NavBar{
+    position: fixed;
+    display: block;
+
+}
+
+.NavBarItem {
+    background-color: blue;
+}
+
+.Resume {
+    position: relative;
+    top: 20px;
+}
