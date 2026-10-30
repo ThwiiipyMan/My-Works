@@ -1,14 +1,63 @@
 #NavBar{
     position: fixed;
     display: block;
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 7%;
+}
 
+#HomePage {
+    z-index: -1;
 }
 
 .NavBarItem {
     background-color: blue;
+    display: inline-block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a.link {
+    color: black;
+}
+
+a.visited {
+    color: black;
+}
+
+a.hover {
+    color: black;
 }
 
 .Resume {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 50px;
+    left: 12.5%;
+    right: 12.5%;
+    z-index: -1;
 }
+
+#profPicHolder {
+    height: 400px;
+    width: 200px;
+    float: right;
+}
+
+#profPic {
+    height: 50%;
+    border-radius: 50%;
+}
+
+#basicInfo {
+    display: inline-block;
+}
+
+#secondRow {
+    display: block;
+}
+
